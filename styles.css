@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #ffffff;
+}
+
+header {
+    background: linear-gradient(to right, #007bff, #6610f2);
+}
+
+section h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #222;
+}
+/* Style pour la photo de profil */
+#about img {
+    transition: transform 0.3s ease-in-out;
+}
+
+#about img:hover {
+    transform: scale(1.1); /* Agrandissement au survol */
+}
+/* Arrière-plan attrayant pour la section contact */
+#contact {
+    background: linear-gradient(135deg, #6a11cb, #ffffff); /* Dégradé violet et bleu */
+    color: white;
+}
+
+#contact h2 {
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#contact .form-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+#contact .btn-light {
+    background-color: #ffffff;
+    color: #2575fc;
+    border: none;
+    font-weight: bold;
+}
+
+#contact .btn-light:hover {
+    background-color: #e0e0e0;
+    color: #6a11cb;
+}
+
+#contact .form-control {
+    background-color: #f7f9fc;
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+#contact .form-control:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 8px rgba(37, 117, 252, 0.4);
+}
+
+/* Message de confirmation */
+#confirmationMessage .alert {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
